@@ -13,7 +13,7 @@ names = ["Adia, Paul", "Maddagan, Jan Kerby","Villanueva, Carmelo","Ling, Ian",
          "Acodili, Lawrence", "Caguioa, Rizalino", "Macatangga, Juan",
          "Echevaria, John Leo", "Catalla, Johann","Pabellano, Nino"]
 
-print("UNSORTED LIST OF APPLICANT:")
+print("UNSORTED LIST OF AUTHORS:")
 for unsorted in names:
     print(str(num) + ".", unsorted)
     num += 1
@@ -21,7 +21,7 @@ for unsorted in names:
 num = 1
 print("\n\n")
 bubble_sort(names)
-print("SORTED LIST OF APPLICANT:")
+print("SORTED LIST OF AUTHORS:")
 for ssorted in names:
     print(str(num) + ".", ssorted)
     num += 1
